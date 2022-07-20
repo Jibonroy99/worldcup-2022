@@ -1,0 +1,513 @@
+/* tablet view */
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+    body {
+        max-width: 1040px;
+        margin: 0, auto;
+
+    }
+
+    .first-part {
+        display: flex;
+        width: 100vw;
+        height: 28.55rem;
+        background-color: black;
+        margin-left: 5%;
+
+        margin-top: 2rem;
+        border-radius: 2rem;
+
+    }
+
+    .first {
+        width: 50%;
+
+    }
+
+    .first img {
+        width: 44.50vw;
+
+    }
+
+    .heading {
+        font-size: 4vw;
+        color: white;
+        font-weight: 700;
+        padding-left: 5rem;
+
+    }
+
+    .text {
+        color: white;
+        font-weight: 700;
+        font-size: 2vw;
+        padding-left: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .anchor {
+        padding: 10px 40px;
+        text-decoration: none;
+        color: white;
+        background-color: crimson;
+        margin-left: 5rem;
+        border-radius: 1rem;
+
+
+    }
+
+
+
+
+
+
+    .link-tag {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        margin-left: -6%;
+        height: 100px;
+        width: 300px;
+        padding: 20px;
+
+
+    }
+
+
+
+
+
+
+
+
+    .box-tag1 {
+        text-align: center;
+        padding: 10px 70px;
+
+        background-color: whitesmoke;
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+        border: 1px solid black;
+        margin-right: 5px;
+
+    }
+
+    .box-tag2 {
+        text-align: center;
+        padding: 10px 70px;
+        background-color: whitesmoke;
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+        border: 1px solid black;
+        margin-right: 5px;
+
+    }
+
+    .box-tag3 {
+        text-align: center;
+        padding: 10px 70px;
+        background-color: crimson;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+        margin-bottom: 15px;
+        border-radius: 10px;
+
+    }
+
+    .second-part {
+        display: flex;
+        flex-direction: column;
+        margin-left: 17%;
+    }
+
+    .blog {
+        margin-top: 50px;
+        margin-right: 10px;
+        height: 300px;
+        width: 230px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+
+
+    }
+
+
+
+
+    .blog img {
+
+        width: 100%;
+    }
+
+    .middle-part {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding-left: 40px;
+
+    }
+
+    .bottom {
+        visibility: visible;
+        margin-top: 100px;
+        text-align: center;
+
+
+
+
+
+
+    }
+
+    .bottom-anchor {
+        color: azure;
+        background-color: crimson;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 40px;
+        text-align: center;
+
+
+    }
+
+
+    footer {
+        width: 100vw;
+        height: 400px;
+        margin-left: 30px;
+        margin-right: 30px;
+        background-color: dimgray;
+    }
+
+    .footer-heading {
+        color: aliceblue;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 50px;
+        margin-top: 80px
+    }
+
+    .footer-text {
+        color: white;
+    }
+
+    .last-part {
+        display: flex;
+        flex-direction: row;
+
+
+        text-align: center;
+    }
+
+    hr {
+        margin-left: 80px;
+        margin-right: 80px;
+
+    }
+
+    .icon {
+        text-align: center;
+    }
+
+    .button {
+        margin-left: 1rem;
+        background-color: whitesmoke;
+        font-weight: 700;
+    }
+
+    .blog2 {
+        display: flex;
+        padding-left: 10px;
+        padding-top: 20px;
+
+
+    }
+
+    .middle-part2 {
+        margin-top: 100px;
+        margin-left: 10px;
+        height: 150px;
+        width: 230px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+    }
+
+    .inframe {
+        text-align: center;
+    }
+
+    .frame {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding-left: 40px;
+
+    }
+
+    .logo {
+        font-size: 50px;
+        text-align: center;
+        padding: 20px;
+
+    }
+
+
+}
+
+/* mobile view */
+@media screen and (max-width:480px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        max-width: 600px;
+
+
+    }
+
+    .first-part {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 500px;
+        background-color: black;
+        margin-right: 60px;
+
+        margin-top: 2rem;
+        border-radius: 2rem;
+
+    }
+
+    .first {
+        width: 100%;
+
+    }
+
+    .first img {
+        width: 70vw;
+        margin-top: 30px;
+        margin-left: 60px;
+
+    }
+
+    .heading {
+        font-size: 4vw;
+        color: white;
+        font-weight: 700;
+        padding-left: 5rem;
+        width: 70%;
+        text-align: center;
+        padding-top: 55px;
+
+    }
+
+    .text {
+        color: white;
+        font-weight: 700;
+        font-size: 2vw;
+        padding-left: 5rem;
+        padding-bottom: 5rem;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .anchor {
+        padding: 10px 30px;
+        text-decoration: none;
+        color: white;
+        background-color: crimson;
+        margin-left: 10rem;
+        border-radius: 1rem;
+
+
+    }
+
+    .link-tag {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin-right: 50px;
+        height: 100px;
+        width: 300px;
+        padding: 20px;
+        margin-bottom: 20px;
+
+
+    }
+
+    .middle-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding-left: 40px;
+        margin-right: 80px;
+
+
+
+    }
+
+    .bottom {
+        visibility: hidden;
+    }
+
+    .last-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    footer {
+        width: 100vw;
+        height: 400px;
+
+        margin-right: 5%;
+        background-color: dimgray;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 776px) {
+
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: azure;
+    }
+
+
+    .first-part {
+        display: flex;
+         width: 62vw;
+        height: 49rem;
+        background-color: black;
+        margin-left: 20%;
+        margin-top: 2rem;
+        border-radius: 2rem;
+
+    }
+
+    .heading {
+        font-size: 4vw;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+        padding-right: 30px;
+
+
+    }
+
+    .anchor {
+        padding: 5px 10px;
+        text-decoration: none;
+        color: white;
+        background-color: crimson;
+        margin-left: 100px;
+
+
+
+        border-radius: 1rem;
+
+    }
+
+    .first {
+        width: 80%;
+    }
+
+    .text {
+        color: white;
+        font-weight: 700;
+        font-size: 2vw;
+        text-align: center;
+
+    }
+
+    .first {
+        width: 90%;
+        margin-top: 14px;
+        padding-left: 10px;
+
+    }
+
+    .box {
+        background-color: black;
+        width: 20vw;
+        height: 30vh;
+        margin-top: 5rem;
+    }
+
+    .second-part {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    .link-tag {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+
+    }
+
+    .box-tag1 {
+        text-align: center;
+        padding: 15px 45px;
+        background-color: whitesmoke;
+
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+
+    .box-tag3 {
+        text-align: center;
+        padding: 15px 45px;
+        background-color: crimson;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+
+    .middle-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding-left: 40px;
+
+*/
