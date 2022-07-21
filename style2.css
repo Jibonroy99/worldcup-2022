@@ -268,27 +268,29 @@
 /* mobile view */
 @media screen and (max-width:480px) {
 
-    * {
-        margin: 0;
-        padding: 0;
-    }
+
 
     body {
         max-width: 600px;
+        margin: 0, auto;
 
 
+    }
+
+    * {
+        margin: 0;
     }
 
     .first-part {
         display: flex;
         flex-direction: column;
         width: 100vw;
-        height: 550x;
+        height: 150rem;
         background-color: black;
-        margin-right: 60px;
-
-        margin-top: 2rem;
+        margin-right: 2rem;
+        margin-top: 3rem;
         border-radius: 2rem;
+
 
     }
 
@@ -298,9 +300,9 @@
     }
 
     .first img {
-        width: 70vw;
-        margin-top: 30px;
-        margin-left: 60px;
+        width: 45vw;
+        margin-left: 100px;
+        margin-top: 8px;
 
     }
 
@@ -308,10 +310,11 @@
         font-size: 4vw;
         color: white;
         font-weight: 700;
-        padding-left: 5rem;
+        margin-right: 20px;
         width: 70%;
         text-align: center;
-        padding-top: 55px;
+        padding-top: 15px;
+
 
     }
 
@@ -319,19 +322,23 @@
         color: white;
         font-weight: 700;
         font-size: 2vw;
-        padding-left: 5rem;
-        padding-bottom: 5rem;
+        padding-left: 2rem;
         text-align: center;
         margin-right: 20px;
+        margin-top: 10px;
     }
 
+
+
     .anchor {
-        padding: 10px 30px;
+        padding: 5px 10px;
         text-decoration: none;
         color: white;
         background-color: crimson;
-        margin-left: 9rem;
-        border-radius: 1rem;
+        margin-left: 127px;
+        border-radius: 5px;
+        margin-bottom: 40px;
+
 
 
     }
@@ -340,7 +347,7 @@
         display: flex;
         flex-direction: column;
         background-color: white;
-        margin-right: 50px;
+        margin-right: 48px;
         height: 100px;
         width: 300px;
         padding: 20px;
@@ -353,8 +360,8 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
-        padding-left: 40px;
-        margin-right: 80px;
+        padding-left: 10px;
+
 
 
 
@@ -368,16 +375,91 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding-left: 80px;
+        padding-left: 60px;
         padding-right: 80px;
     }
 
     footer {
         width: 100vw;
         height: 400px;
-
-        margin-right: 5%;
+        padding-right: 12px;
         background-color: dimgray;
+    }
+
+
+
+
+}
+
+/*  2nd html/schedule  */
+
+/* tablet view */
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+    body {
+        max-width: 1040px;
+        margin: 0, auto;
+
+    }
+
+    .first-part {
+        display: flex;
+        width: 100vw;
+        height: 28.55rem;
+        background-color: black;
+        margin-left: 5%;
+
+        margin-top: 2rem;
+        border-radius: 2rem;
+
+    }
+
+    .frame {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding-left: 40px;
+
+    }
+
+
+}
+
+
+/*  2nd html mobile view */
+@media screen and (max-width:480px) {
+
+    body {
+        max-width: 600px;
+        margin: 0, auto;
+
+
+    }
+
+    .first-part {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 343px;
+        background-color: black;
+        margin-right: 2rem;
+        margin-top: 3rem;
+        border-radius: 2rem;
+
+
+    }
+
+    .frame {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding-left: 40px;
+
+
     }
 
 
@@ -385,7 +467,6 @@
 
 
 
-}
 
 
 
@@ -394,10 +475,7 @@
 
 
 
-
-
-
-/* @media only screen and (max-width: 776px) {
+    /* @media only screen and (max-width: 776px) {
 
     body {
         max-width: 800px;
